@@ -1,4 +1,6 @@
-✅ Introduction to Databricks
+Welcome to the world of Databricks! In this course, you will be introduced to the Databricks Lakehouse platform and understand how it modernizes data architecture using the new Lakehouse paradigm. You'll explore the foundational components of Databricks, including the UI, platform architecture, and workspace administration. Interactive exercises will guide you through SQL queries, platform features, and external system connections for efficient data management and seamless integration. Additionally, you'll delve into the Databricks Data Intelligence Platform, covering data management, compute capabilities, catalog management, and data ingestion. You'll also learn to use Databricks as a data warehousing solution for Business Intelligence (BI), leveraging SQL-optimized capabilities to create queries and analyze data.
+
+✅ [Introduction to Databricks](https://github.com/janaom/databricks-learning/blob/main/introduction-to-databricks/README.md#introduction-to-databricks)
 
 ✅ Data Intelligence Platform Fundamentals
 
