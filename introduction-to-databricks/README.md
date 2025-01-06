@@ -45,3 +45,5 @@ Unity Catalog provides a holistic governance layer on top of everything in the l
 
 ![image](https://github.com/user-attachments/assets/0786ac8d-cdfa-4221-80f2-144b504d37ca)
 
+![image](https://github.com/user-attachments/assets/2a754e1f-873f-4cf9-9212-3b85dd5c5e09)
+
