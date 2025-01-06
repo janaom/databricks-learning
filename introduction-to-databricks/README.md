@@ -22,3 +22,8 @@ In Databricks, the control plane and compute plane are distinct layers responsib
 - **Compute Plane**: This is where the actual data processing happens. It consists of the worker nodes that execute Spark jobs and other computations. These are the clusters you create to run your code. The compute plane is responsible for the heavy lifting of data processing and analysis. Think of it as the "muscles" doing the work.
 
 In short: The control plane manages the resources, while the compute plane uses those resources to perform computations. They work together seamlessly to provide the Databricks service.
+
+# Administering a Databricks workspace
+
+![image](https://github.com/user-attachments/assets/07aab8d2-8878-4b00-b7ab-21a7483602e6)
+
