@@ -11,7 +11,7 @@ Discover how the Databricks Lakehouse platform modernizes data architecture usin
 
 ------------------------
 
-# Databricks Architecture
+## Databricks Architecture
 
 ![image](https://github.com/user-attachments/assets/6f6e7d8f-e34e-4aeb-a860-f92984e96f94)
 
@@ -23,10 +23,25 @@ In Databricks, the control plane and compute plane are distinct layers responsib
 
 In short: The control plane manages the resources, while the compute plane uses those resources to perform computations. They work together seamlessly to provide the Databricks service.
 
-# Administering a Databricks workspace
+## Administering a Databricks workspace
 
 ![image](https://github.com/user-attachments/assets/07aab8d2-8878-4b00-b7ab-21a7483602e6)
 
 Which statement best reflects the difference between an Account Admin and a Workspace Admin?
 
 - Account Admins have permissions to the entire account and back-end configurations, while Workspace Admins have permissions for the operations within a specific workspace.
+
+# Data Intelligence Platform Fundamentals
+
+## Data Intelligence Platform - Data
+
+With Databricks, we recommend storing data in the Delta format.
+
+![image](https://github.com/user-attachments/assets/8e70f0eb-f42c-4e0f-aafe-dd9dc39f37a9)
+
+Once data has been stored, we need to manage how that data is accessed and governed. 
+
+Unity Catalog provides a holistic governance layer on top of everything in the lakehouse.
+
+![image](https://github.com/user-attachments/assets/0786ac8d-cdfa-4221-80f2-144b504d37ca)
+
