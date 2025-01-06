@@ -27,3 +27,6 @@ In short: The control plane manages the resources, while the compute plane uses 
 
 ![image](https://github.com/user-attachments/assets/07aab8d2-8878-4b00-b7ab-21a7483602e6)
 
+Which statement best reflects the difference between an Account Admin and a Workspace Admin?
+
+- Account Admins have permissions to the entire account and back-end configurations, while Workspace Admins have permissions for the operations within a specific workspace.
