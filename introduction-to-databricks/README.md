@@ -2,7 +2,7 @@ Welcome to the world of Databricks! In this course, you will be introduced to th
 
 ✅ [Introduction to Databricks](https://github.com/janaom/databricks-learning/blob/main/introduction-to-databricks/README.md#introduction-to-databricks)
 
-✅ Data Intelligence Platform Fundamentals
+✅ [Data Intelligence Platform Fundamentals](https://github.com/janaom/databricks-learning/blob/main/introduction-to-databricks/README.md#data-intelligence-platform-fundamentals)
 
 ✅ Introduction to SQL in Databricks
 
