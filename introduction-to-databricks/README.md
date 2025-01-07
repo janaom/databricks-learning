@@ -52,3 +52,14 @@ Unity Catalog provides a holistic governance layer on top of everything in the l
 What is one of the primary benefits of using the Catalog Explorer instead of your previous approach?
 
 - Ability to see sample data for a particular table.
+
+
+## Data Intelligence Platform - Compute
+
+![image](https://github.com/user-attachments/assets/1b337d17-1af3-4d98-89de-6d38452e37b8)
+
+![image](https://github.com/user-attachments/assets/ac95ab66-3ed4-4468-8e6f-1245c02b1e2b)
+
+![image](https://github.com/user-attachments/assets/18a2e47d-16b7-4be6-b234-4e24d7887597)
+
+![image](https://github.com/user-attachments/assets/ed888c48-4431-4017-972a-265c81b55e52)
