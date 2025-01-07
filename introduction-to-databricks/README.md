@@ -63,3 +63,17 @@ What is one of the primary benefits of using the Catalog Explorer instead of you
 ![image](https://github.com/user-attachments/assets/18a2e47d-16b7-4be6-b234-4e24d7887597)
 
 ![image](https://github.com/user-attachments/assets/ed888c48-4431-4017-972a-265c81b55e52)
+
+## Node capabilities: Single vs. Multi
+
+![image](https://github.com/user-attachments/assets/2753d5b7-4820-4f30-89e3-1a60bb095fdd)
+
+## Configuring clusters
+
+You have received various requests from your central IT group to reign in the kinds of clusters that can be created in Databricks.
+
+The IT team will start implementing different cluster policies for the different groups using the Databricks platform. Since you lead your data engineering team, the IT team would like you to provide a list of configurations you need to complete your work.
+
+Which of the following is not a valid cluster configuration in Databricks?
+
++ Cluster monthly budget (While you can use Databricks to track your costs spent on a particular cluster, you cannot specify a budget for how much the cluster will cost each month directly.)
