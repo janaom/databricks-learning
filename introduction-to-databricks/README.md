@@ -104,3 +104,12 @@ Which of the following tasks would be supported in Databricks?
 
 ## SQL in the Data Intelligence Platform
 
+![image](https://github.com/user-attachments/assets/8eaf72e5-6917-48df-9fa3-b099cf112844)
+
+![image](https://github.com/user-attachments/assets/390305a1-b422-4265-9ba1-faaaf5ac531e)
+
+## Write your first query
+
+![image](https://github.com/user-attachments/assets/7a264d92-e638-46cf-b154-5cf98ce50a52)
+
+
