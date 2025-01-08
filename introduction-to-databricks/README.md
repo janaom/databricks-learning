@@ -35,6 +35,8 @@ Which statement best reflects the difference between an Account Admin and a Work
 
 # Data Intelligence Platform Fundamentals
 
+Learn the key components of the Databricks Data Intelligence Platform and how it can enhance your analytical processes. Explore Databricks fundamentals for data management and compute capabilities. You will also cover data catalog management and data ingestion. Get your hands dirty with interactive exercises that will guide you through integrating datasets, setting permissions, and configuring clusters. 
+
 ## Data Intelligence Platform - Data
 
 With Databricks, we recommend storing data in the Delta format.
@@ -77,3 +79,28 @@ The IT team will start implementing different cluster policies for the different
 Which of the following is not a valid cluster configuration in Databricks?
 
 + Cluster monthly budget (While you can use Databricks to track your costs spent on a particular cluster, you cannot specify a budget for how much the cluster will cost each month directly.)
+
+# Introduction to SQL in Databricks
+
+Use the Databricks Data Intelligence Platform as your data warehousing solution for your Business Intelligence (BI) use cases. Use the built-in SQL-optimized capabilities within Databricks to create queries and dashboards on your data.
+
+## Data Intelligence Platform - Analytics
+
+Options to interact with data in Databricks:
+
+![image](https://github.com/user-attachments/assets/31e0ef38-7c4b-4af3-8930-a25234154e7a)
+
+![image](https://github.com/user-attachments/assets/66eb5be8-f4a3-414a-8535-44ff635a55b8)
+
+As you migrate your existing data pipelines into Databricks, your data engineering team wonders if they are selecting the correct language for development. While you don't want to refactor everything, you want to ensure the selected language is the best long-term selection for your problem, and that Databricks can support the required language.
+
+Which of the following tasks would be supported in Databricks?
+
++ Creating a custom function for a business-specific calculation in Python
++ Joining two tables together in SQL
++ Performing advanced statistical techniques on your data
+
+![image](https://github.com/user-attachments/assets/833b87a7-e843-4ec4-b44e-f2c67f9d6262)
+
+## SQL in the Data Intelligence Platform
+
