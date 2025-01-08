@@ -29,3 +29,6 @@ Learn about the new lakehouse paradigm for your cloud data strategy and how the 
 ![image](https://github.com/user-attachments/assets/60b0a9b8-a363-4d29-9510-207e81f781dd)
 
 ![image](https://github.com/user-attachments/assets/f71a526b-4940-4faf-8515-30426423b56d)
+
+![image](https://github.com/user-attachments/assets/9ce1a101-90ab-4a39-b0d5-1a6e3e750d72)
+
