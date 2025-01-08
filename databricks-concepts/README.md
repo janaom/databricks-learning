@@ -32,3 +32,12 @@ Learn about the new lakehouse paradigm for your cloud data strategy and how the 
 
 ![image](https://github.com/user-attachments/assets/9ce1a101-90ab-4a39-b0d5-1a6e3e750d72)
 
+Why Delta?
+
+As you develop your future-state architecture, you have started to think about how to store your organization's data. You know you want to store data in a data lake and have heard a lot about the Delta Lake table format.
+
+Which of the following are the benefits of storing data in the Delta table format? Select all that apply.
+
++ Fully ACID-compliant transactions
++ Unified batch and streaming data sources
++ Time travel and table history
