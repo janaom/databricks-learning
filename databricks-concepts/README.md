@@ -41,3 +41,10 @@ Which of the following are the benefits of storing data in the Delta table forma
 + Fully ACID-compliant transactions
 + Unified batch and streaming data sources
 + Time travel and table history
+
+## Control Plane vs. Data Plane
+
+Which of the following is true regarding the relationship between the Databricks Control Plane and the customer Data Plane?
+
++ User interactions with the Databricks platform exist within the Control Plane, and is responsible for tasks such as launching clusters and initiating jobs.
++ The Data Plane is where customers store their data in the data lake, ensuring better data security.
