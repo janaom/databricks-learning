@@ -48,3 +48,6 @@ Which of the following is true regarding the relationship between the Databricks
 
 + User interactions with the Databricks platform exist within the Control Plane, and is responsible for tasks such as launching clusters and initiating jobs.
 + The Data Plane is where customers store their data in the data lake, ensuring better data security.
+
+![image](https://github.com/user-attachments/assets/ad895e14-e527-4c6e-a83e-b78d47cca900)
+
