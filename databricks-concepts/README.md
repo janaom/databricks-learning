@@ -51,3 +51,14 @@ Which of the following is true regarding the relationship between the Databricks
 
 ![image](https://github.com/user-attachments/assets/ad895e14-e527-4c6e-a83e-b78d47cca900)
 
+
+# Data Engineering
+
+Learn how to process, transform, and clean your data using Databricks functionality. Practice using capabilities such as the Delta storage format, Delta Live Tables, and Workflows together to create an end-to-end data pipeline.
+
+## Getting started with Databricks
+
+![image](https://github.com/user-attachments/assets/53bf1a26-edeb-4abd-a808-b68c5d2f9ab7)
+
+![image](https://github.com/user-attachments/assets/b0ecc687-1c70-4d26-a08a-636a76bfa2cc)
+
