@@ -62,3 +62,8 @@ Learn how to process, transform, and clean your data using Databricks functional
 
 ![image](https://github.com/user-attachments/assets/b0ecc687-1c70-4d26-a08a-636a76bfa2cc)
 
+## Data Engineering foundations in Databricks
+
+![image](https://github.com/user-attachments/assets/3a59c1bc-5795-4f8d-9cca-2a55b8f18825)
+
+![image](https://github.com/user-attachments/assets/f3c48ec3-c144-4135-ae5c-4a26adb05957)
