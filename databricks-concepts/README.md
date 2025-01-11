@@ -90,4 +90,18 @@ The correct sequence to create an automated data pipeline
 
 Use the Databricks Lakehouse platform as your data warehousing solution for your Business Intelligence (BI) use cases. Use the built-in SQL-optimized capabilities within Databricks to create queries and dashboards on your data.
 
+## Getting started with Databricks SQL
 
+![image](https://github.com/user-attachments/assets/d2b30436-63e7-45a0-8337-e89e6a242507)
+
+![image](https://github.com/user-attachments/assets/156521c8-43d5-48f0-83cc-e4e4381bc5c6)
+
+![image](https://github.com/user-attachments/assets/1a9f8d89-2e1f-40f4-908c-412b27c0c3da)
+
+### Choosing your SQL warehouse
+
+You are starting to query some of Sierra Publishing's book sale data and want to ensure you have the right kind of SQL warehouse for what you need. You want to make sure you have the latest features that Databricks has put out there. Your users are also used to quickly accessing the data behind their reports and don't want to wait for the warehouse to spin up too long.
+
+What kind of SQL warehouse should you create?
+
++ Serverless
