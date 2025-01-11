@@ -67,3 +67,16 @@ Learn how to process, transform, and clean your data using Databricks functional
 ![image](https://github.com/user-attachments/assets/3a59c1bc-5795-4f8d-9cca-2a55b8f18825)
 
 ![image](https://github.com/user-attachments/assets/f3c48ec3-c144-4135-ae5c-4a26adb05957)
+
+## Data orchestration in Databricks
+
+In the Databricks platform, data engineers can orchestrate their data using tools lumped into an offering called Databricks Workflows, where you can automate every task you can achieve in Databricks with built-in capabilities at no additional cost. Here is a diagram showing a high-level potential pipeline you could orchestrate in Databricks Workflows. This pipeline reads in two different datasets (one batch, one streaming) and uses Delta Live Tables to process and eventually join these datasets. From there, different data persona could do further analytics processes, such as ML model training and dashboard serving. 
+
+Databricks Workflows is designed to orchestrate and automate nearly everything you can do with the Databricks platform, so what exactly can we include in our Workflows? If you are a data engineer or data scientist, you will be able to automate all of your programmatic work like Databricks notebooks or Delta Live Table pipelines. Users can also include external .jar files, Spark submit jobs or Java applications. Databricks also allows you to include external orchestration tools in Workflows. For example, dbt is used to schedule and test SQL queries. As a data analyst, you can automatically include any queries, dashboards, or alerts as part of a Workflow.
+
+Databricks Jobs are the core of Workflows and define a particular step in the overall Workflow pipeline. For example, a single Job could join order and customer datasets together. In Databricks, there are multiple ways to create a Job. In the UI, users can create a job quickly, no matter where they are. Users can create a job in the context of a notebook or go to the Workflows area of the UI, where you can create and manage your Workflows and Jobs together. Here is a screen shot of the pop-up box to create a Job directly from the context of a notebook. 
+
+![image](https://github.com/user-attachments/assets/794aa18a-bf62-44c7-9604-74fdf28b86d6)
+
+![image](https://github.com/user-attachments/assets/344b2226-fe4b-4eda-b9ed-e4742e8d5cf8)
+
