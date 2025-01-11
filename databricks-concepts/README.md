@@ -8,7 +8,7 @@ This course guides you from start to finish on how the Databricks Lakehouse Plat
 
   ✅  [Data Engineering](https://github.com/janaom/databricks-learning/blob/main/databricks-concepts/README.md#data-engineering)
 
-  ✅  Databricks SQL and Data Warehousing
+  ✅  [Databricks SQL and Data Warehousing](https://github.com/janaom/databricks-learning/blob/main/databricks-concepts/README.md#databricks-sql-and-data-warehousing)
 
   ✅  Databricks for Large-scale Applications and Machine Learning
 
