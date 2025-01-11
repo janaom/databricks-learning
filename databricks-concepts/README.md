@@ -105,3 +105,7 @@ You are starting to query some of Sierra Publishing's book sale data and want to
 What kind of SQL warehouse should you create?
 
 + Serverless
+
+# Databricks for Large-scale Applications and Machine Learning
+
+Use Databricks to manage your Machine Learning pipelines with managed MLFlow. Follow the model development lifecycle from end-to-end with the Feature Store, Model Registry, and Model Serving Endpoints to create a robust MLOps platform in the lakehouse.
