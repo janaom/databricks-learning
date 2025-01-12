@@ -150,3 +150,7 @@ Regardless of how you create and train your model, you will need a way to manage
 ![image](https://github.com/user-attachments/assets/21469221-56a9-47f4-9ca2-d2cf140391c4)
 
 As you develop and train your models and track your work with MLFlow, you can review your work in MLFlow Experiments. These Experiments collect all the information across multiple runs into a single location, which Databricks manages. In these Experiments, you can review, sort, and compare the different runs you have completed as you train the model. You can compare these runs based on different metrics that are important to you. Once you have compared the runs, you can then find and promote the best model run to be the final version of that model. 
+
+![image](https://github.com/user-attachments/assets/fb3ba624-d835-4bba-a61a-85b62f3dd6e5)
+
+![image](https://github.com/user-attachments/assets/2646a2bf-0912-4827-9c92-f637043fddbb)
