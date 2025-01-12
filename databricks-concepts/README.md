@@ -154,3 +154,16 @@ As you develop and train your models and track your work with MLFlow, you can re
 ![image](https://github.com/user-attachments/assets/fb3ba624-d835-4bba-a61a-85b62f3dd6e5)
 
 ![image](https://github.com/user-attachments/assets/2646a2bf-0912-4827-9c92-f637043fddbb)
+
+## Deploying a model in Databricks
+
+First, we have to start with the model itself. In MLFlow, all trained models are stored in a generalized MLFlow Model object. These objects can store models of any framework and keep important context about the configurations and artifacts needed to create that model. With MLFlow, there is the concept of a Model Flavor, which essentially allows us to translate our model into a different framework. This is very useful when deploying a model into an ecosystem with different technological constraints. Here, we have an example where a model could be trained in any number of frameworks. Upon deployment, you can surface the model into two different flavors, depending on what the downstream application needs. 
+
+![image](https://github.com/user-attachments/assets/db2b91dd-cebd-4056-9700-295d57aab87d)
+
+In Databricks, we can view all the trained models in our environment within the Model Registry. 
+
+Put each task card below in the correct order to implement a Machine Learning pipeline in Databricks. Each of these tasks will use the capabilities within the Databricks Lakehouse.
+
+![image](https://github.com/user-attachments/assets/87c4d649-1e97-4435-a9ec-a3c93e901832)
+
