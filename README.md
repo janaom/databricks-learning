@@ -5,3 +5,5 @@ Get started with Databricks! This repository provides a beginner-friendly introd
 ✅ [Introduction to Databricks](https://app.datacamp.com/learn/courses/introduction-to-databricks)
 
 ✅ [Databricks Concepts](https://app.datacamp.com/learn/courses/databricks-concepts)
+
+✅ [Data Visualization in Databricks](https://app.datacamp.com/learn/courses/data-visualization-in-databricks)
