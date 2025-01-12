@@ -109,3 +109,19 @@ What kind of SQL warehouse should you create?
 # Databricks for Large-scale Applications and Machine Learning
 
 Use Databricks to manage your Machine Learning pipelines with managed MLFlow. Follow the model development lifecycle from end-to-end with the Feature Store, Model Registry, and Model Serving Endpoints to create a robust MLOps platform in the lakehouse.
+
+## Overview of Lakehouse AI
+
+![image](https://github.com/user-attachments/assets/c0fb3c7e-d5b7-4b84-9e72-62d069cea598)
+
+The beginning of the MLOps process falls into DataOps, which involves getting data ready for any kind of machine learning application. This starts by integrating data from different sources into the Delta lake, which can use the AutoLoader capability. Then, we want to transform those data tables into a more usable, clean format, which often can be completed with Delta Live Tables. Finally, data scientists need to create tables of different features to feed into the model they choose, which uses the Feature Store capability in the platform. 
+
+![image](https://github.com/user-attachments/assets/776f3045-2ec5-4ce1-b6da-1bb9febdbc01)
+
+After data has been processed correctly, a data scientist can start developing a machine learning model. They will begin by developing and training a model, usually done in Databricks Notebooks or in a local IDE. Some users are looking for a pre-defined model template that can utilize Databricks AutoML to generate a baseline model. Throughout the process, data scientists must track metrics and parameters to understand their model performance using the MLFlow framework. Once the model is developed, the model must be centralized so that users can consume and use the model, which uses the Databricks Model Registry. 
+
+![image](https://github.com/user-attachments/assets/210d0143-aff5-432b-8e40-d1cc978c7240)
+
+At the end of the MLOps process, we have DevOps, which is all about getting the developed models into a production capacity. Throughout the development process, and especially once a model is ready for deployment, access must be governed securely, which can utilize Unity Catalog in the Databricks environment. As models are tuned over time, data scientists need to control which version of a model is in production and which is in a testing environment, which can be controlled in the Model Registry. Finally, the model is ready for deployment, which can be done directly from Databricks Serving Endpoints. 
+
+![image](https://github.com/user-attachments/assets/728cc46a-24b9-4e75-8722-2d4dc0a5ca11)
