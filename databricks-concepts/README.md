@@ -125,3 +125,23 @@ After data has been processed correctly, a data scientist can start developing a
 At the end of the MLOps process, we have DevOps, which is all about getting the developed models into a production capacity. Throughout the development process, and especially once a model is ready for deployment, access must be governed securely, which can utilize Unity Catalog in the Databricks environment. As models are tuned over time, data scientists need to control which version of a model is in production and which is in a testing environment, which can be controlled in the Model Registry. Finally, the model is ready for deployment, which can be done directly from Databricks Serving Endpoints. 
 
 ![image](https://github.com/user-attachments/assets/728cc46a-24b9-4e75-8722-2d4dc0a5ca11)
+
+Databricks helps streamline the featurization process with the Feature Store, a centralized storage specifically for feature tables. With the Feature Store, you can discover and re-use feature tables for your different models and see upstream and downstream lineage from that feature table. Here, we can quickly create a feature table based on an existing DataFrame we created for our features. Now, any model in the future can reference our feature table, which expedites the development process. 
+
+![image](https://github.com/user-attachments/assets/c3811e0b-1792-466c-aa0e-d4040babea54)
+
+Each code block represents a different cell in a Databricks notebook. Put each code block in the correct order to complete your task.
+
+![image](https://github.com/user-attachments/assets/fcf42af6-4b0e-459f-a29a-1dbb452fd880)
+
+## Model training with MLFlow in Databricks
+
+Before diving into Databricks-specific functionality, let's talk about scaling up machine learning workloads. Single-node machine learning is the classical approach for these workloads, as they will only use a single machine (for example, your laptop) to train a model. This is a great approach for experimenting and testing, as the setup is easy and quick. However, these models don't typically work well in a production setting, as they cannot scale how we need them to. The most popular example of these kinds of models are from the scikit-learn library. Most organizations are looking at moving into multi-node machine learning, which uses multiple compute resources (like a Databricks cluster) to train a model. These are much better for production workloads. While they require a slightly harder setup, they are much easier to maintain over time, as they are very scalable. This is where frameworks like Spark ML can be hugely helpful. 
+
+![image](https://github.com/user-attachments/assets/feabde6a-bb74-4698-97c4-5bdf76e2517e)
+
+If you aren't very comfortable programming your own machine learning pipeline or just want a good foundation, you will benefit from the AutoML capability in Databricks. AutoML is a Glass Box approach to machine learning. Many other tools can automatically create a machine-learning model, but they don't provide much visibility into what is happening under the hood. With Databricks AutoML, the platform uses the most popular open-source libraries and can create a model that best predicts what you want it to predict based on your UI selections. To take it a step further, AutoML generates a notebook with the required code to reproduce, audit, or optimize the code for that model, so you know exactly what happened. 
+
+![image](https://github.com/user-attachments/assets/45ac7d91-a299-4cae-926b-782cfb1a595e)
+
+
