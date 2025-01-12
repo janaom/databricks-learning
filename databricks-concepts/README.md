@@ -145,3 +145,8 @@ If you aren't very comfortable programming your own machine learning pipeline or
 ![image](https://github.com/user-attachments/assets/45ac7d91-a299-4cae-926b-782cfb1a595e)
 
 
+Regardless of how you create and train your model, you will need a way to manage your work. Databricks hosts a managed version of MLFlow, an open-source framework that manages the end-to-end processes of machine learning development. With MLFlow, you can track, evaluate, manage, and deploy your models. Lucky for you, it even comes pre-installed on the Databricks ML Runtime! Here, we have some of the key components of MLFlow Tracking, which is the main component we need for our development. You can track your work in the context of a run, which incorporates all the steps you take to train a model. Most model frameworks allow you to auto-log everything about the model training with the autolog() method. Still, you can also explicitly log metrics or parameters that went into your model training. 
+
+![image](https://github.com/user-attachments/assets/21469221-56a9-47f4-9ca2-d2cf140391c4)
+
+As you develop and train your models and track your work with MLFlow, you can review your work in MLFlow Experiments. These Experiments collect all the information across multiple runs into a single location, which Databricks manages. In these Experiments, you can review, sort, and compare the different runs you have completed as you train the model. You can compare these runs based on different metrics that are important to you. Once you have compared the runs, you can then find and promote the best model run to be the final version of that model. 
