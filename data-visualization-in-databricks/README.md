@@ -4,8 +4,13 @@ Master the art of data visualization with Databricks and transform raw data into
 
 ------------------
 
-Databricks Visualizations
+✅ Databricks Visualizations
 
-Visualization Formatting and Data Storytelling
+✅ Visualization Formatting and Data Storytelling
 
-Dashboarding Basics
+✅ Dashboarding Basics
+
+
+# Databricks Visualizations
+
+Discover the essentials of data visualization using Databricks. Explore key concepts and create charts, tables, and dynamic map visualizations. Build your skills to transform raw data into clear, actionable insights.
