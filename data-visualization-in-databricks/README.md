@@ -14,3 +14,7 @@ Master the art of data visualization with Databricks and transform raw data into
 # Databricks Visualizations
 
 Discover the essentials of data visualization using Databricks. Explore key concepts and create charts, tables, and dynamic map visualizations. Build your skills to transform raw data into clear, actionable insights.
+
+## Create a Choropleth Map
+
+![20250113_200909](https://github.com/user-attachments/assets/c3fe3f9e-8df8-4afd-a945-d2ac3fb133e3)
