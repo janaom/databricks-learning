@@ -19,3 +19,7 @@ This chapter explores table management in Databricks, focusing on managed vs. un
 ![image](https://github.com/user-attachments/assets/60519cff-c72f-401d-b2ce-9b9faeeaae5c)
 
 ![image](https://github.com/user-attachments/assets/2f4eaec6-2545-4c60-8488-5c6c42870940)
+
+## Creating unmanaged tables
+
+![image](https://github.com/user-attachments/assets/1f0c766f-56fc-4f9e-bff3-7738f032b99d)
