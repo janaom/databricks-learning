@@ -23,3 +23,9 @@ This chapter explores table management in Databricks, focusing on managed vs. un
 ## Creating unmanaged tables
 
 ![image](https://github.com/user-attachments/assets/1f0c766f-56fc-4f9e-bff3-7738f032b99d)
+
+# Working with Tables in Databricks
+
+This chapter delves into creating and managing views and temp views in Databricks. You'll explore how persistent views save query logic for reuse across sessions, while temp views are suited for quick, session-specific tasks. The discussion also highlights practical scenarios where each type can enhance efficiency and streamline data handling.
+
+
