@@ -47,3 +47,11 @@ In summary, use persistent views when you reuse query logic across sessions and 
 ![image](https://github.com/user-attachments/assets/ba13aff8-73a6-476d-8244-6647df798959)
 
 ![image](https://github.com/user-attachments/assets/1c187f9b-7a9b-4897-976b-504444c2f797)
+
+![image](https://github.com/user-attachments/assets/228bcb8b-b5e4-4687-861f-13fc3ddb98d2)
+
+# Data Exploration and Security
+
+In the final chapter, you’ll explore how to use Data Explorer to preview, analyze, and secure datasets. The content covers table ownership, responsibilities, and governance best practices. It also dives into managing access rights and securely handling Personally Identifiable Information (PII) with compliance-focused strategies and practical exercises.
+
+
