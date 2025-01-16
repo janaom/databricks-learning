@@ -9,3 +9,5 @@ Get started with Databricks! This repository provides a beginner-friendly introd
 ✅ [Data Visualization in Databricks](https://app.datacamp.com/learn/courses/data-visualization-in-databricks)
 
 ✅ [Data Management in Databricks](https://app.datacamp.com/learn/courses/data-management-in-databricks)
+
+✅ [Exploring London's Travel Network](https://app.datacamp.com/learn/projects/exploring_londons_travel_network)
