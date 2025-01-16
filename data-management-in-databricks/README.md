@@ -54,4 +54,16 @@ In summary, use persistent views when you reuse query logic across sessions and 
 
 In the final chapter, you’ll explore how to use Data Explorer to preview, analyze, and secure datasets. The content covers table ownership, responsibilities, and governance best practices. It also dives into managing access rights and securely handling Personally Identifiable Information (PII) with compliance-focused strategies and practical exercises.
 
+## Managing access and understanding PII
+
+In addition, understanding the implications of different access levels is crucial for effective data management. For example, granting read-only access is suitable for general users who only need to view data. In contrast, full access should be reserved for key personnel responsible for data updates and maintenance. Think of it like a museum exhibit: visitors can observe the displays, but only curators and staff are allowed to handle or modify the exhibits - Databricks' access control functions similarly to protect and maintain data integrity. 
+
+Introducing Personally Identifiable Information, or PII, is important, but what is it? PII includes any data that can identify an individual, such as names, social security numbers, or medical records. Handling PII requires strict adherence to privacy laws and regulations, particularly in healthcare, finance, and government industries, where protecting sensitive data is vital. Proper handling of PII is not merely a best practice - it's a legal necessity enforced by regulations like GDPR and HIPAA. These laws dictate how PII must be stored, accessed, and shared to protect individuals' privacy and prevent data breaches that could lead to identity theft, financial loss, and other serious issues. 
+
+![image](https://github.com/user-attachments/assets/fbbeee40-9376-48dd-8b9c-cdda75a77fb5)
+
+![image](https://github.com/user-attachments/assets/222f4d64-8099-429d-ae45-ccfdc97e4c75)
+
+![image](https://github.com/user-attachments/assets/d4924e90-42dc-4f45-b7db-e40c2806ffa5)
+
 
