@@ -28,4 +28,18 @@ This chapter explores table management in Databricks, focusing on managed vs. un
 
 This chapter delves into creating and managing views and temp views in Databricks. You'll explore how persistent views save query logic for reuse across sessions, while temp views are suited for quick, session-specific tasks. The discussion also highlights practical scenarios where each type can enhance efficiency and streamline data handling.
 
+## Views and Temp views
 
+![image](https://github.com/user-attachments/assets/8fc6d4ab-3f7d-4aad-8388-e33bcb3451bc)
+
+![image](https://github.com/user-attachments/assets/e917bb85-cd52-4b73-979e-79b11f692a62)
+
+![image](https://github.com/user-attachments/assets/2a0eabcc-d891-430c-a159-376d01f6a43d)
+
+![image](https://github.com/user-attachments/assets/27a49cf2-fe66-4344-ab9c-ae5faa5f2073)
+
+Temp views are temporary objects that are only available for the current session. They're ideal for ad-hoc analysis or staging intermediate data during a pipeline. Let's create a temp view called temp_medical_records. In the SQL editor, we can type the following command.: Once the command is ready, we run it and notice the confirmation. This temp view behaves like a regular view, it only exists for the current session. If you close the session, it will be automatically dropped.
+
+![image](https://github.com/user-attachments/assets/2b73b119-24ee-46d9-9c28-aae6321afb10)
+
+In summary, use persistent views when you reuse query logic across sessions and choose temp views for quick, temporary operations that won't extend beyond the current session.
