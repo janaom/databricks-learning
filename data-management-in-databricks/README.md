@@ -6,7 +6,7 @@ Ready to level up your Databricks skills? In this course, you’ll master Data M
 
 ✅ [Working with Tables in Databricks](https://github.com/janaom/databricks-learning/blob/main/data-management-in-databricks/README.md#working-with-tables-in-databricks)
 
-✅ Data Exploration and Security
+✅ [Data Exploration and Security](https://github.com/janaom/databricks-learning/blob/main/data-management-in-databricks/README.md#data-exploration-and-security)
 
 ----------------------
 # Introduction to Delta Lake
