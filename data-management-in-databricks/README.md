@@ -43,3 +43,7 @@ Temp views are temporary objects that are only available for the current session
 ![image](https://github.com/user-attachments/assets/2b73b119-24ee-46d9-9c28-aae6321afb10)
 
 In summary, use persistent views when you reuse query logic across sessions and choose temp views for quick, temporary operations that won't extend beyond the current session.
+
+![image](https://github.com/user-attachments/assets/ba13aff8-73a6-476d-8244-6647df798959)
+
+![image](https://github.com/user-attachments/assets/1c187f9b-7a9b-4897-976b-504444c2f797)
