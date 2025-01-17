@@ -21,3 +21,41 @@ But with increasing demand comes competition for these ports — nothing is more
 The data has been loaded into an Azure Databricks database, containing a schema called vehicles and a single table named charging_sessions with the following columns:
 
 ![image](https://github.com/user-attachments/assets/8252be0b-9b2c-4f3a-b5fc-5bbbfbf0c022)
+
+```SQL
+-- unique_users_per_garage
+-- Modify the code below
+SELECT garage_id, COUNT(DISTINCT user_id) AS num_unique_users
+FROM vehicles.charging_sessions
+WHERE user_type = "Shared"
+GROUP BY garage_id
+ORDER BY num_unique_users DESC
+```
+
+![image](https://github.com/user-attachments/assets/8c050f0e-75c8-4b81-8f4e-a7cc383a3239)
+
+
+```SQL
+-- most_popular_shared_start_times
+SELECT weekdays_plugin, start_plugin_hour, COUNT(*) AS num_charging_sessions
+FROM vehicles.charging_sessions
+WHERE user_type = "Shared"
+GROUP BY weekdays_plugin, start_plugin_hour
+ORDER BY num_charging_sessions DESC
+LIMIT 10;
+```
+
+![image](https://github.com/user-attachments/assets/efe9cdc4-9bce-4896-a8fc-736550143906)
+
+
+```SQL
+-- long_duration_shared_users
+SELECT user_id, AVG(duration_hours) AS avg_charging_duration
+FROM vehicles.charging_sessions
+WHERE user_type = "Shared"
+GROUP BY user_id
+HAVING AVG(duration_hours) > 10
+ORDER BY avg_charging_duration DESC;
+```
+
+![image](https://github.com/user-attachments/assets/286b0040-5afd-40dc-8ffd-635e7f392896)
