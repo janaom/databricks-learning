@@ -10,4 +10,6 @@ Get started with Databricks! This repository provides a beginner-friendly introd
 
 ✅ [Data Management in Databricks](https://app.datacamp.com/learn/courses/data-management-in-databricks)
 
-✅ [Exploring London's Travel Network](https://app.datacamp.com/learn/projects/exploring_londons_travel_network)
+✅ [Project: Exploring London's Travel Network](https://app.datacamp.com/learn/projects/exploring_londons_travel_network)
+
+✅ [Project: Analyzing Electric Vehicle Charging Habits](https://app.datacamp.com/learn/projects/analyzing_electric_vehicle_charging_habits)
